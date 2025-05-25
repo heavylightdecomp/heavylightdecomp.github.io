@@ -19,33 +19,34 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: #ff7a00; /* bright orange */
+      padding: 6rem;              /* extra breathing room on all sides */
+      background: #282a2e;        /* dark grey-ish background */
       font-family: "Trebuchet MS", "Segoe UI", Verdana, sans-serif;
       text-align: center;
     }
 
     h1 {
       color: #ffffff;
-      font-size: clamp(1.875rem, 6vw + 1rem, 4.5rem); /* scales with viewport */
-      line-height: 1.2;
-      padding: 0 1rem; /* gutter for very narrow screens */
+      font-size: clamp(0.625rem, 2vw + 0.25rem, 1.5rem);
+      line-height: 1.4;
+      max-width: 60ch;
     }
 
     /* --- LINK STYLING ------------------------------------------------- */
     a {
-      color: inherit; /* inherit white text colour */
+      color: inherit;
       text-decoration: underline;
     }
 
     a:hover,
     a:focus-visible {
-      text-decoration: none; /* subtle interaction feedback */
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
   <h1>
-    If you were looking for my blog, click
+    Hi, I'm heavylightdecomp. If you were looking for my blog, click
     <a href="https://heavylightdecomp.github.io/blog/" target="_blank" rel="noopener noreferrer">here</a>
   </h1>
 </body>
